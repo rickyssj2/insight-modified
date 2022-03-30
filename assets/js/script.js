@@ -141,3 +141,20 @@ removeBtnNav.addEventListener('click', removeTopic);
 for (let i = 0; i < themeBtn.length; i++) {
     themeBtn[i].addEventListener('click', themeToggle);
 }
+
+// gsap animation ========================================================================================
+const blogCards = document.querySelectorAll('.blog-card');
+
+gsap.registerPlugin(ScrollTrigger);
+
+blogCards.forEach(element => {
+    gsap.from(`.${element.className.split(' ')[2]}`, {
+        scrollTrigger: {
+            trigger: `.${element.className.split(' ')[2]}`,
+            toggleActions: 'restart none restart none',
+        },
+        opacity: 0,
+        duration: 1,
+        x: -300,
+    });
+});
