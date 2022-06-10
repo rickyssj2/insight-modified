@@ -1,452 +1,330 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>InSight IIT Bombay | Student Media Body, IIT Bombay</title>
 
-        <!--
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>InSight IIT Bombay | Student Media Body, IIT Bombay</title>
+
+    <!--
     - favicon
   -->
-        <link
-            rel="shortcut icon"
-            href="./assets/images/favicon.svg"
-            type="image/x-icon"
-        />
+    <link rel="shortcut icon" href="./assets/images/favicon.svg" type="image/x-icon" />
 
-        <!--
+    <!--
     - custom css link
   -->
-        <link rel="stylesheet" href="./assets/css/style_blog.css" />
+    <link rel="stylesheet" href="./assets/css/style_blog.css" />
 
-        <!--
+    <!--
     - google font link
   -->
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        <link
-            href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800;900&display=swap"
-            rel="stylesheet"
-        />
-    </head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet" />
+</head>
 
-    <body class="light-theme">
-        <!--
+<body class="light-theme">
+    <!--
     - #HEADER
   -->
 
-        <header>
-            <div class="container">
-                <nav class="navbar">
-                    <a href="../index.html">
-                        <img
-                            src="./assets/images/insight-iitb-logo.png"
-                            alt="Devblog's logo"
-                            width="150"
-                            class="logo-light"
-                        />
-                        <img
-                            src="./assets/images/insight-iitb-logo.png"
-                            alt="Devblog's logo"
-                            width="150"
-                            class="logo-dark"
-                        />
-                    </a>
+    <header>
+        <div class="container">
+            <nav class="navbar">
+                <a href="../index.html">
+                    <img src="./assets/images/insight-iitb-logo.png" alt="Devblog's logo" width="150"
+                        class="logo-light" />
+                    <img src="./assets/images/insight-iitb-logo.png" alt="Devblog's logo" width="150"
+                        class="logo-dark" />
+                </a>
 
-                    <div class="btn-group">
-                        <button class="theme-btn theme-btn-mobile light">
-                            <ion-icon name="moon" class="moon"></ion-icon>
-                            <ion-icon name="sunny" class="sun"></ion-icon>
-                        </button>
+                <div class="btn-group">
+                    <button class="theme-btn theme-btn-mobile light">
+                        <ion-icon name="moon" class="moon"></ion-icon>
+                        <ion-icon name="sunny" class="sun"></ion-icon>
+                    </button>
 
-                        <button class="nav-menu-btn">
-                            <ion-icon name="menu-outline"></ion-icon>
-                        </button>
-                    </div>
+                    <button class="nav-menu-btn">
+                        <ion-icon name="menu-outline"></ion-icon>
+                    </button>
+                </div>
 
-                    <div class="flex-wrapper">
-                        <ul class="desktop-nav">
-                            <li>
-                                <a href="../index.html" class="nav-link"
-                                    >Home</a
-                                >
+                <div class="flex-wrapper">
+                    <ul class="desktop-nav">
+                        <li>
+                            <a href="../index.html" class="nav-link">Home</a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="nav-link">Summer Blog</a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="nav-link">Our Team</a>
+                        </li>
+                    </ul>
+
+                    <button class="theme-btn theme-btn-desktop light">
+                        <ion-icon name="moon" class="moon"></ion-icon>
+                        <ion-icon name="sunny" class="sun"></ion-icon>
+                    </button>
+                </div>
+
+                <div class="mobile-nav">
+                    <button class="nav-close-btn">
+                        <ion-icon name="close-outline"></ion-icon>
+                    </button>
+
+                    <div class="wrapper">
+                        <p class="h3 nav-title">Main Menu</p>
+
+                        <ul>
+                            <li class="nav-item">
+                                <a href="./index.html" class="nav-link">Home</a>
                             </li>
 
-                            <li>
+                            <li class="nav-item">
                                 <a href="#" class="nav-link">Summer Blog</a>
                             </li>
 
-                            <li>
+                            <li class="nav-item">
                                 <a href="#" class="nav-link">Our Team</a>
                             </li>
                         </ul>
-
-                        <button class="theme-btn theme-btn-desktop light">
-                            <ion-icon name="moon" class="moon"></ion-icon>
-                            <ion-icon name="sunny" class="sun"></ion-icon>
-                        </button>
                     </div>
 
-                    <div class="mobile-nav">
-                        <button class="nav-close-btn">
-                            <ion-icon name="close-outline"></ion-icon>
-                        </button>
+                    <div>
+                        <p class="h3 nav-title">Topics</p>
 
-                        <div class="wrapper">
-                            <p class="h3 nav-title">Main Menu</p>
+                        <ul>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">Y-Combinator News</a>
+                            </li>
 
-                            <ul>
-                                <li class="nav-item">
-                                    <a href="./index.html" class="nav-link"
-                                        >Home</a
-                                    >
-                                </li>
-
-                                <li class="nav-item">
-                                    <a href="#" class="nav-link">Summer Blog</a>
-                                </li>
-
-                                <li class="nav-item">
-                                    <a href="#" class="nav-link">Our Team</a>
-                                </li>
-                            </ul>
-                        </div>
-
-                        <div>
-                            <p class="h3 nav-title">Topics</p>
-
-                            <ul>
-                                <li class="nav-item">
-                                    <a href="#" class="nav-link"
-                                        >Y-Combinator News</a
-                                    >
-                                </li>
-
-                                <li class="nav-item">
-                                    <a href="#" class="nav-link"
-                                        >Entrepreneurial World</a
-                                    >
-                                </li>
-                            </ul>
-                        </div>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">Entrepreneurial World</a>
+                            </li>
+                        </ul>
                     </div>
-                </nav>
-            </div>
-        </header>
+                </div>
+            </nav>
+        </div>
+    </header>
 
-        <main>
-            <!--
+    <main>
+        <!--
       - #HERO SECTION
     -->
 
-            <div class="hero">
-                <div class="container">
-                    <div class="img-box">
-                        <img
-                            src="./assets/images/blog-1.png"
-                            alt="Kunjar Boi"
-                            class="hero-img"
-                        />
-                    </div>
-                    <div class="title">
-                        <p>The Pre-Product Startup and the FDA</p>
-                    </div>
-                    <div class="content">
-                        <div class="wrap">
-                            <p>
-                                A frequent question we get at YC is “when do I
-                                start thinking about the FDA?” Obviously, there
-                                is no single answer to such a complex question,
-                                but here are some basic rules of thumb for how
-                                to think about it:
-                            </p>
-                            <ul>
-                                <li>
-                                    It makes sense for every founder considering
-                                    a bio product to get a basic FDA education
-                                    from day one.
-                                </li>
-                                <li>
-                                    Choosing the proper regulatory pathway is
-                                    nuanced; research and experts can help.
-                                </li>
-                                <li>
-                                    Correctly setting up your GxP process and
-                                    running studies “the FDA way” at the right
-                                    time is essential.
-                                </li>
-                            </ul>
-                            <p>
-                                Navigating the FDA process effectively is
-                                absolutely key for startups. If you invest too
-                                much too early, you may unnecessarily burn cash
-                                too fast. Conversely, if you start too late, you
-                                may have to redo work, potentially slowing down
-                                your process substantially. An analogy we often
-                                share with founders is that work done before
-                                investing in the FDA process is like sketching
-                                with pencil, while committing to the FDA process
-                                is like using ink. As you can imagine, planning
-                                your sketch and practicing it in pencil, and
-                                only then committing to ink, will lead to the
-                                best results.
-                            </p>
-                            <p>
-                                In our experience, we often see pre-product
-                                startup founders pursuing two simultaneous
-                                projects:
-                            </p>
-                            <ol>
-                                <li>
-                                    Running a “killer” experiment that
-                                    demonstrates that their product can work.
-                                </li>
-                                <li>
-                                    Figuring out the appropriate FDA regulatory
-                                    pathway for their product.
-                                </li>
-                            </ol>
-                            <p>
-                                Startups run these simultaneously because
-                                they’re interdependent and because the learnings
-                                from the killer experiment often help determine
-                                the proper regulatory pathway. Imagine you’ve
-                                been iterating on a novel therapeutic in vitro.
-                                Your killer experiment might be showing a
-                                therapeutic effect by doing an in-vivo
-                                experiment in a representative animal model. By
-                                getting some sense of the therapeutic effect and
-                                its mechanism, you can compare your therapeutic
-                                to others with similar safety profiles or that
-                                treat similar populations or diseases. This
-                                comparison process can help you choose the
-                                regulatory pathway that makes the most sense for
-                                the product.
-                            </p>
-                            <p>
-                                Over the years, we’ve watched many startups do a
-                                lot of work on their “killer experiments” before
-                                deciding on their FDA regulatory pathway. These
-                                are some of the approaches we’ve seen YC
-                                companies pursue:
-                            </p>
-                            <ul>
-                                <li>
-                                    In-vitro experiments at the bench, using
-                                    banked cells or banked/cultured tissues.
-                                </li>
-                                <li>
-                                    In-vivo experiments using animal models.
-                                </li>
-                                <li>
-                                    In patient experiments under IRB with
-                                    physician oversight.
-                                </li>
-                                <li>
-                                    Finding a non-clinical research use for your
-                                    technology that does not require FDA
-                                    approval.
-                                </li>
-                                <li>
-                                    Pursue research, industrial, agricultural,
-                                    or veterinary applications of technologies
-                                    that will eventually be used for human
-                                    health.
-                                </li>
-                            </ul>
-                            <p>
-                                When startups have been developing diagnostics,
-                                we’ve also seen companies working on tests with
-                                a lab component decide to start first with the
-                                CLIA/CAP LDT process, and only then pursue FDA
-                                clearance. This can be a reasonable choice for
-                                certain classes of diagnostic tests as it allows
-                                you to start delivering diagnostic results at
-                                small scale.
-                            </p>
-                        </div>
+        <div class="hero">
+            <div class="container">
+                <div class="img-box">
+                    <img src="./assets/images/blog-2.png" alt="Kunjar Boi" class="hero-img" />
+                </div>
+                <div class="title">
+                    <p>LASE Interview: Prof Anush and Prof Anurag</p>
+                </div>
+                <div class="content">
+                    <div class="wrap">
+                        <p>
+                            <span id="start">A</span> new program called Liberal Arts, Sciences and Engineering (LASE) was introduced at IITB
+                            this year. Students who joined in 2021 (current freshies) are eligible to branch change into
+                            this program if they clear the first round of written tests and interviews. The program
+                            allows you to choose your specialisation in the third year after completing compulsory
+                            foundation courses and a few open electives in your second year. The specialisation can be
+                            Natural Sciences, Arts and Design, or students can design a custom concentration like healthcare engineering, graduates would get a “Bachelor of Science in <specialisation>”. We spoke to Prof. Anurag Mehra and Prof. Anush Kapadia to learn more about the program. 
+
+                        </p>
+                        <h3>
+                            Why a written test and interview in addition to the regular branch change rules(CPI-based)?
+                        </h3>
+
+                        <p>
+                            The programme is designed for people with broad interests and an aptitude for diverse
+                            subjects and CPI is not an adequate indicator of this, especially since the standard
+                            first-year courses are predominantly science courses. A test and an interview help the
+                            admissions committee understand the applicant's interests and motivation for opting into the
+                            programme. Selecting candidates based only on their CPI reinforces the existing loop and it
+                            does not help identify the students who fit best with the programme.
+                        </p>
+                        <h3>
+                            Would you consider an alternative to JEE - a different entrance exam? Can IDC students be
+                            allowed to apply for the programme in the future since it is interdisciplinary?
+                        </h3>
+                        <p>
+                            The programme is designed for people with broad interests and an aptitude for diverse
+                            subjects and CPI is not an adequate indicator of this, especially since the standard
+                            first-year courses are predominantly science courses. A test and an interview help the
+                            admissions committee understand the applicant's interests and motivation for opting into the
+                            programme. Selecting candidates based only on their CPI reinforces the existing loop and it
+                            does not help identify the students who fit best with the programme.
+
+                        </p>
+                        <h3>
+                            Would you consider an alternative to JEE - a different entrance exam? Can IDC students be
+                            allowed to apply for the programme in the future since it is interdisciplinary?
+                        </h3>
+                        <p>
+                            The initial vision was to use a variety of examinations like KVPY, international olympiads,
+                            HSS entrance exam and even the board exam marks. This would allow them to select from a more
+                            extensive set of applicants with varied backgrounds - thus creating a diverse cohort.
+                            Diversity in thought and opinion is integral to the success of a liberal arts programme.
+                            Moreover, selecting students in the first year would allow them to design a tailored
+                            first-year curriculum. But the institute was sceptical about running the first iteration of
+                            the programme without JEE Advanced being a point of entry. The current roadmap for the
+                            programme approved by the Board of Governors includes multiple entry points for the
+                            programme in the future. This means that IDC students will also be able to apply for the
+                            LASE programme in the future.
+                        </p>
+                        <h3>Why a Bachelor of Science and not a BTech?</h3>
+                        <p>
+                            A bachelor of science degree is the norm worldwide and the program is simply following that
+                            norm. Degrees ranging from Music to Engineering are given the BS label. Check out <a
+                                href="https://cheme.mit.edu/academics/undergraduate-students/undergraduate-programs/">MIT</a>
+                            pages,
+                            for instance.
+                        </p>
+                        <h3>
+                            Will these students be at a disadvantage to their peers as they will be starting with their
+                            specialisation in their third year?
+                        </h3>
+                        <p>
+
+                            College is vastly different from school. The typical mentality in school is that one is
+                            falling behind their peers if they do not study the same material at an equal pace. College,
+                            however, is characterised by the ability to choose your academic journey. You aren't
+                            guaranteed to make the same choices as your peers, which means that you won't end up in the
+                            same place as they do.Even if you do, the path to reach there will be different since there
+                            is no advantage to moving in lockstep with your peers.
+
+                        </p>
+                        <h3>But what about interns/placements which will happen alongside other students in the
+                            institute?</h3>
+                        <p>
+                            LASE students will have access to a diverse set of internships. The broad knowledge base
+                            focusing on critical thinking and effective communication appeals to employers ranging from
+                            consulting companies to startups. You must draw connections between unrelated things,
+                            communicate effectively and leverage a diversity of skills. The professors urged applicants
+                            not to think about their peers and their opportunities but rather leverage the comparative
+                            advantage of LASE to their benefit.
+                        </p>
+                        <h3>Why have you chosen this specific set of foundation courses? </h3>
+                        <p>
+                            Most people that enter through JEE do not know about the non-technical stuff since coaching
+                            classes skip these. Most schools in the status quo are also poor in teaching history and
+                            literature to students. The key motivation for selecting these particular courses was to
+                            equip an undergraduate with the essential skills and knowledge necessary for the current
+                            world. These foundation courses are a broad toolkit that will continue to evolve in future
+                            iterations. It also fills existing knowledge gaps across the institute.
+                        </p>
+                        <ol  type ="1">
+                            <li>
+                                Digital lives - The baseline level of technical knowledge required for the average
+                                citizenry is more than that of two decades ago. While everyone uses the internet, not
+                                most students critically examine privacy issues, data extraction, the technical aspects
+                                of this, and what the future entails.
+                            </li>
+                            <li>
+                                History of South Asia - History in school, has primarily been mugging-up dates and
+                                facts. However, this course will allow students to view history from a different lens,
+                                especially the history of our region, which gives context to contemporary problems.
+                            </li>
+                            <li>
+                                Reading and writing literature - The professors received feedback from employers that
+                                most students do not know how to write effectively, like putting together a memo or
+                                summarising information from a meeting. This course is designed to improve your ability
+                                to communicate and analyze literature. The instructor is a trained professional
+                                specialising in teaching the nuts and bolts of writing. It is different from existing
+                                writing courses in the institute since it doesn't focus on mere communication and
+                                scientific writing.
+                            </li>
+                            <li>
+                                History of Science - This course is designed to help students understand the social
+                                context of various scientific innovations. Learning the history of a discipline teaches
+                                two broad things -
+                                <ol type="1">
+                                    <li> how thinkers made arguments to justify innovations and groundbreaking theories
+                                        and</li>
+                                    <li>
+                                        the social context in which disciplines evolved. Conclusion: there is a close
+                                        feedback loop between knowledge and society, so very concrete problems evolved
+                                        at different times in history and in other places. There are plans to have a
+                                        general course about the history of any discipline in the future.
+
+                                    </li>
+                                </ol>
+
+                            </li>
+                            <li>
+                                Inequality and Society - While we live in the golden age of materialism and society is
+                                the healthiest in modern times, several inequalities have grown further. This course
+                                answers questions about the brand of capitalism that caused these inequalities. It
+                                provides a new lens to view the society around us.
+
+                            </li>
+                        </ol>
+                        <h3>Why a small group of 30 students? -
+                        </h3>
+                        <p> The best part of a liberal arts programme is personalising things and providing students
+                            with a lot of personal attention, which becomes harder to do with larger class sizes.
+                            Liberal arts colleges in the US have significantly smaller class sizes and greater undergrad
+                            focus when compared to universities like Harvard or Stanford. If these courses are opened up
+                            to the entire institute, half the fun of the course is lost. The professors said that the
+                            instructors could share recordings and materials with the rest of the institute, but
+                            permitting the rest of the institute to take these courses would require the support of
+                            departments to adopt this new model of teaching and fund the hiring of new faculty for these
+                            courses in the long term.
+                        </p>
+                        <h3>Why are Seminar courses a part of every sem? - </h3>
+                        <p>This is a feature usually offered in PhD courses since it requires personalised guidance.
+                            The LASE programme has a fair share of PhD-like features - freedom to choose one's academic
+                            journey and the professional guidance to support this. The seminar course enables you to
+                            integrate all the breadth covered in the programme and integrate this knowledge. The result
+                            of it could be anything that the students envision - a project, SLP, essay, field surveys,
+                            etc. This course runs more frequently than the existing seminar courses in the institute
+                            that some departments run. Also, since the LASE course allows you to choose exactly what you
+                            want to work on, it ensures that students learn from these seminars. </p>
+                        <h3>Is there any limit on the number of students who can pick a particular specialisation?</h3>
+                        <p>
+                            A cap on the number of students who can take a specialisation hasn’t been built into the
+                            program but if too many students wish to take similar courses, then enough seats might not
+                            be available due to constraints placed by the instructors or other departments, and if such
+                            a case arises the faculty will decide as to what needs to be done.
+                        </p>
+                        <h3>
+
+                            Currently, LASE students can take a maximum of 5 courses in a sem, and these will be core
+                            courses, so they cannot do a minor?
+
+                        </h3>
+                        <p>
+                            Currently, there is no provision to do a minor but The IDPC of the Centre has passed a
+                            resolution that minor courses will not count towards the 5-course cap and has been sent to
+                            the Dean AP. It, therefore, means that it is likely that LASE students should be able to do
+                            a minor.
+                        </p>
+                        <p>Interested readers can visit their website for more information
+                            <a href="https://cle.iitb.ac.in/ ">https://cle.iitb.ac.in/ </a>
+                        </p>
+                        <h3>
+                            How can freshers apply?
+                        </h3>
+                        <ol>
+                            <li>Fill out the form at https://cle.iitb.ac.in/apply-to-lase/ to register yourself for the
+                                test and interview (deadline 8th June)
+                            </li>
+                            <li>Give the test scheduled on 11th June</li>
+                            <li>Interviews will be scheduled on the 18th and 19th of June</li>
+
+                        </ol>
                     </div>
                 </div>
             </div>
+        </div>
 
-            <div class="main">
-                <div class="container">
-                    <!--
-          - BLOG SECTION
-        -->
-
-                    <div class="blog">
-                        <h2 class="h2">Related Blog Post</h2>
-
-                        <div class="blog-card-group">
-                            <div class="blog-card">
-                                <div class="blog-card-banner">
-                                    <img
-                                        src="./assets/images/blog-1.png"
-                                        alt="Building microservices with Dropwizard, MongoDB & Docker"
-                                        width="250"
-                                        class="blog-banner-img"
-                                    />
-                                </div>
-
-                                <div class="blog-content-wrapper">
-                                    <button class="blog-topic text-tiny">
-                                        Biotech
-                                    </button>
-
-                                    <h3>
-                                        <a href="./blog1.html" class="h3">
-                                            The Pre-Product Startup and the FDA
-                                        </a>
-                                    </h3>
-
-                                    <p class="blog-text">
-                                        A frequent question we get at YC is
-                                        “when do I start thinking about the
-                                        FDA?” Obviously, there is no single
-                                        answer to such a complex question, but
-                                        here are some basic rules of thumb for
-                                        how to think about it:
-                                    </p>
-
-                                    <div class="wrapper-flex">
-                                        <div class="profile-wrapper">
-                                            <img
-                                                src="./assets/images/author-1.png"
-                                                alt="Kunjar Boi"
-                                                width="50"
-                                            />
-                                        </div>
-
-                                        <div class="wrapper">
-                                            <a href="#" class="h4"
-                                                >Kunjar Boi</a
-                                            >
-
-                                            <p class="text-sm">
-                                                <time datetime="2022-01-17"
-                                                    >Jan 17, 2022</time
-                                                >
-                                                <span class="separator"></span>
-                                                <ion-icon
-                                                    name="time-outline"
-                                                ></ion-icon>
-                                                <time datetime="PT3M"
-                                                    >3 min</time
-                                                >
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="blog-card">
-                                <div class="blog-card-banner">
-                                    <img
-                                        src="./assets/images/blog-2.png"
-                                        alt="Fast web page loading on a $20 feature phone"
-                                        width="250"
-                                        class="blog-banner-img"
-                                    />
-                                </div>
-
-                                <div class="blog-content-wrapper">
-                                    <button class="blog-topic text-tiny">
-                                        Startup School
-                                    </button>
-
-                                    <h3>
-                                        <a href="./blog2.html" class="h3"
-                                            >YC Build Sprint Winter 2021</a
-                                        >
-                                    </h3>
-
-                                    <p class="blog-text">
-                                        One consistent request we get from
-                                        Startup School participants and YC
-                                        applicants alike is more feedback from
-                                        the YC team. For the upcoming sprint,
-                                        we’re committing to provide more founder
-                                        feedback than ever before. Each week,
-                                        we’ll issue a public challenge to sprint
-                                        participants and give personalized
-                                        feedback to those who participate. We’ll
-                                        also have weekly calls with YC partners
-                                        and experts that will answer participant
-                                        questions.
-                                    </p>
-
-                                    <div class="wrapper-flex">
-                                        <div class="profile-wrapper">
-                                            <img
-                                                src="./assets/images/author-1.png"
-                                                alt="Kunjar Boi"
-                                                width="50"
-                                            />
-                                        </div>
-
-                                        <div class="wrapper">
-                                            <a href="#" class="h4"
-                                                >Kunjar Boi</a
-                                            >
-
-                                            <p class="text-sm">
-                                                <time datetime="2021-12-10"
-                                                    >Dec 10, 2021</time
-                                                >
-                                                <span class="separator"></span>
-                                                <ion-icon
-                                                    name="time-outline"
-                                                ></ion-icon>
-                                                <time datetime="PT2M"
-                                                    >2 min</time
-                                                >
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <button class="btn load-more">Load More</button>
-                    </div>
-
-                    <!--
-          - ASIDE
-        -->
-
-                    <div class="aside">
-                        <div class="newsletter">
-                            <h2 class="h2">Newsletter</h2>
-
-                            <div class="wrapper">
-                                <p>
-                                    Subscribe to our newsletter to be among the
-                                    first to keep up with the latest updates.
-                                </p>
-
-                                <form action="#">
-                                    <input
-                                        type="email"
-                                        name="email"
-                                        placeholder="Email Address"
-                                        required
-                                    />
-
-                                    <button
-                                        type="submit"
-                                        class="btn btn-primary"
-                                    >
-                                        Subscribe
-                                    </button>
-                                </form>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </main>
 
         <!--
     - #FOOTER
@@ -456,18 +334,10 @@
             <div class="container">
                 <div class="wrapper">
                     <a href="#" class="footer-logo">
-                        <img
-                            src="./assets/images/insight-iitb-logo.png"
-                            alt="DevBlog's Logo"
-                            width="150"
-                            class="logo-light"
-                        />
-                        <img
-                            src="./assets/images/insight-iitb-logo.png"
-                            alt="DevBlog's Logo"
-                            width="150"
-                            class="logo-dark"
-                        />
+                        <img src="./assets/images/insight-iitb-logo.png" alt="DevBlog's Logo" width="150"
+                            class="logo-light" />
+                        <img src="./assets/images/insight-iitb-logo.png" alt="DevBlog's Logo" width="150"
+                            class="logo-dark" />
                     </a>
 
                     <p class="footer-text">
@@ -476,40 +346,20 @@
                 </div>
 
                 <div class="wrapper">
-                    <p class="footer-title">Microsites</p>
+                    <p class="footer-title">Cheif Editors</p>
 
                     <ul>
                         <li>
-                            <a href="#" class="footer-link">Summer Blog</a>
+                            <a href="#" class="footer-link">Achintya Kunj Goyal</a>
                         </li>
 
                         <li>
-                            <a href="#" class="footer-link">Senior Survey</a>
-                        </li>
-
-                        <li>
-                            <a href="#" class="footer-link">GS Metre</a>
+                            <a href="#" class="footer-link">Muskaan Chandra</a>
                         </li>
                     </ul>
                 </div>
 
-                <div class="wrapper">
-                    <p class="footer-title">Legal Stuff</p>
-
-                    <ul>
-                        <li>
-                            <a href="#" class="footer-link">Privacy Notice</a>
-                        </li>
-
-                        <li>
-                            <a href="#" class="footer-link">Cookie Policy</a>
-                        </li>
-
-                        <li>
-                            <a href="#" class="footer-link">Terms Of Use</a>
-                        </li>
-                    </ul>
-                </div>
+                
             </div>
 
             <p class="copyright">
@@ -525,13 +375,8 @@
         <!--
     - ionicon link
   -->
-        <script
-            type="module"
-            src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
-        ></script>
-        <script
-            nomodule
-            src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
-        ></script>
-    </body>
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
 </html>

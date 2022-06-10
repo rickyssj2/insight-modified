@@ -151,6 +151,10 @@ html {
 /*-----------------------------------*\ 
   #BASE STYLE
 \*-----------------------------------*/
+#start{
+    font-size: 2rem !important; 
+    font-weight: 800 !important;
+}
 
 .h1,
 .h2,
@@ -266,8 +270,14 @@ header {
 header .flex-wrapper {
     display: none;
 }
+.sticky{
+    position: sticky;
+    top: 0;
+}
 
 .navbar {
+    position: sticky;
+    top: 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -547,7 +557,11 @@ header .btn-group {
 footer {
     background: var(--background-primary);
 }
-
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 footer .container {
     padding: var(--py) 15px;
     display: grid;
